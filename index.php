@@ -1,7 +1,7 @@
 <?php
 
 // Replace with your actual Gemini API key
-$api_key = "AIzaSyA83sBR4RYnpL1VMVmJS4AIFi2JCejW_h4"; 
+$api_key = "PUT-API-KEY-HERE"; 
 
 // Correct API endpoint (check if gemini-1.5-pro is available)
 $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=" . $api_key;
